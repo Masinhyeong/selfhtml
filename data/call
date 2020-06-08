@@ -1,0 +1,22 @@
+<div id="footer">
+	<div class="container">
+		<div class="fbox1">
+		<span class="icon icon-map-marker"></span>
+			<span>군산대학교 디지털 정보관
+			<br />IST연구실</span>
+		</div>
+		<div class="fbox1">
+			<span class="icon icon-phone"></span>
+			<span>
+				Telephone: 010-2933-8568
+			</span>
+		</div>
+		<div class="fbox1">
+			<span class="icon icon-envelope"></span>
+			<span>tlsguddk1229@gmail.com</span>
+		</div>
+	</div>
+</div>
+<div id="copyright">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>

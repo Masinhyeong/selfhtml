@@ -1,0 +1,72 @@
+<div class="main2">
+<div id = ht2wrapper>
+<div class="con">
+  <div>
+  <select name='fruits'>
+      <option value='' selected>-- 선택 --</option>
+      <option value='apple'>경기도</option>
+      <option value='banana'>전라남도</option>
+      <option value='lemon'>전라북도</option>
+   </select>
+  <select name='fruits'>
+    <option value='' selected>-- 선택 --</option>
+    <option value='apple'>전주</option>
+    <option value='banana'>군산</option>
+    <option value='lemon'>익산</option>
+  </select>
+  <input type="button" name ="btn1" value = "선택">
+  </div>
+  <div id="googleMap" style="width:550px;height:550px;"></div><br>  
+</div>
+
+<div class="con">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gbm_free_banner" width="204" height="213" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab"> <param name="movie" value="http://www.153weather.com/swf/free_cur_weather2.swf" /> <param name="quality" value="high" /> <param name="bgcolor" value="#869ca7" /> <param name="allowScriptAccess" value="sameDomain" /> <param name="wmode" value="transparent" /> <param name="flashvars" value="bg=7&font=malgun&regid=4513051500" /> <embed src="/swf/free_cur_weather2.swf" quality="high" bgcolor="#869ca7" width="204" height="213" name="gbm_free_banner" align="middle" play="true" loop="false" quality="high" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"> </embed> </object> 
+    <p>편의시설</p>
+    <div id=target>
+        <p>block #1</p>
+        <p>block #2</p>
+        <p>block #3</p>
+        <p>block #4</p>
+        <p>block #5</p>
+    </div>
+    <p>배</p>
+    <div id=target>
+      <p>block #1</p>
+      <p>block #2</p>
+      <p>block #3</p>
+      <p>block #4</p>
+      <p>block #5</p>
+  </div>
+  <p>숙박업소</p>
+  <div id=target>
+    <p>block #1</p>
+    <p>block #2</p>
+    <p>block #3</p>
+    <p>block #4</p>
+    <p>block #5</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="fbox1">
+    <span class="icon icon-map-marker"></span>
+      <span>군산대학교 디지털 정보관
+      <br />IST연구실</span>
+    </div>
+    <div class="fbox1">
+      <span class="icon icon-phone"></span>
+      <span>
+        Telephone: 010-2933-8568
+      </span>
+    </div>
+    <div class="fbox1">
+      <span class="icon icon-envelope"></span>
+      <span>tlsguddk1229@gmail.com</span>
+    </div>
+  </div>
+</div>
+<div id="copyright">
+  <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
