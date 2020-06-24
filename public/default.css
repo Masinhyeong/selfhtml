@@ -82,7 +82,7 @@
 			}
 
 			form input.text,
-			form select,
+			
 			form textarea
 			{
 				position: relative;
@@ -107,13 +107,13 @@
 			}
 
 				form input.text:hover,
-				form select:hover,
+				
 				form textarea:hover
 				{
 				}
 
 				form input.text:focus,
-				form select:focus,
+				
 				form textarea:focus
 				{
 					box-shadow: 0 0 2px 1px #E0E0E0;
