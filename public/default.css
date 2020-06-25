@@ -156,46 +156,7 @@
 				}
 
 
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
 
-	.image
-	{
-		display: inline-block;
-		border: 1px solid rgba(0,0,0,.1);
-	}
-
-	.image img
-	{
-		display: block;
-		width: 100%;
-	}
-
-	.image-full
-	{
-		display: block;
-		width: 100%;
-		margin: 0 0 3em 0;
-	}
-
-	.image-left
-	{
-		float: left;
-		margin: 0 2em 2em 0;
-	}
-
-	.image-centered
-	{
-		display: block;
-		margin: 0 0 2em 0;
-	}
-
-	.image-centered img
-	{
-		margin: 0 auto;
-		width: auto;
-	}
 
 /*********************************************************************************/
 /* List Styles                                                                   */
@@ -340,17 +301,7 @@
 		color: #FFF;
 	}
 
-	#logo span
-	{
-		text-transform: uppercase;
-		font-size: 2.90em;
-		color: rgba(255,255,255,1);
-	}
-
-	#logo span a
-	{
-		color: rgba(255,255,255,0.8);
-	}
+	
 
 
 
@@ -400,14 +351,6 @@
 	}
 
 
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner
-	{
-		padding-top: 5em;
-	}
 
 /*********************************************************************************/
 /* Wrapper                                                                       */
@@ -421,26 +364,6 @@
 		background: #FFF;
 	}
 
-	#wrapper1
-	{
-		background: #FFF;
-	}
-
-	#wrapper2
-	{
-		overflow: hidden;
-		background: #F3F3F3;
-		padding: 5em 0em;
-		text-align: center;
-	}
-
-	#wrapper3
-	{
-	}
-
-	#wrapper4
-	{
-	}
 
 /*********************************************************************************/
 /* Welcome                                                                       */
@@ -468,21 +391,7 @@
 	{
 	}
 
-/*********************************************************************************/
-/* Page                                                                          */
-/*********************************************************************************/
 
-	#page-wrapper
-	{
-		overflow: hidden;
-		background: #2F1E28;
-		padding: 3em 0em 6em 0em;
-		text-align: center;
-	}
-
-	#page
-	{
-	}
 
 /*********************************************************************************/
 /* Content                                                                       */
@@ -496,15 +405,6 @@
 		border-right: 1px solid rgba(0,0,0,.1);
 	}
 
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-	#sidebar
-	{
-		float: right;
-		width: 350px;
-	}
 
 /*********************************************************************************/
 /* Footer                                                                        */
@@ -567,84 +467,7 @@
 		color: rgba(255,255,255,0.8);
 	}
 
-/*********************************************************************************/
-/* Newsletter                                                                    */
-/*********************************************************************************/
 
-	#newsletter
-	{
-		overflow: hidden;
-		padding: 8em 0em;
-		background: #EDEDED;
-		text-align: center;
-	}
-
-	#newsletter .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-
-	#newsletter .content
-	{
-		width: 600px;
-		margin: 0px auto;
-	}
-
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-	#portfolio
-	{
-		overflow: hidden;
-		padding-top: 5em;
-		border-top: 1px solid rgba(0,0,0,0.2);
-	}
-
-	#portfolio .box
-	{
-		text-align: center;
-		color: rgba(0,0,0,0.5);
-	}
-
-	#portfolio h3
-	{
-		display: block;
-		padding-bottom: 1em;
-		font-size: 1em;
-		color: rgba(0,0,0,0.6);
-	}
-
-	#portfolio .title
-	{
-		text-align: center;
-	}
-
-	#portfolio .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-
-	.column1,
-	.column2,
-	.column3,
-	.column4
-	{
-		width: 282px;
-	}
-
-	.column1,
-	.column2,
-	.column3
-	{
-		float: left;
-		margin-right: 24px;
-	}
-
-	.column4
-	{
-		float: right;
-	}
 
 /*********************************************************************************/
 /* Three Columns                                                                 */
