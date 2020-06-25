@@ -84,9 +84,57 @@ app.post('/page/information',function(req,res){
 });
 
 app.get('/page/Q&A', function(request, response) {
+  db.query('select * from pro.건의 ORDER BY time DESC', function (error, results, fields) {
+    if (error) {
+        console.log(error);
+    }else{
+      
+      var gesi = ``;
+      var i = 0;
+      while(i < results.length){
+        gesi = gesi + `<tr><th scope="row">${results[i].name}</th><td>${results[i].kinds}</td><td>${results[i].comment}</td><td>${results[i].time}</td></tr>`;
+        
+        i = i + 1;
+      };  
+   
   var title = 'fishing';
   var list = func.list();
-  var html = func.QHTML(list);
+  var html = func.QHTML2(list,gesi);
   response.send(html);
+    }
+
+  });
+});
+
+app.post('/page/Q&A', function(req, res) {
+  var a = req.body.userName;
+  var b = req.body.gender;
+  var c = req.body.comment;
+  var d = req.body.currentDatetime;
+  console.log(d);
+  
+  
+  db.query(`INSERT INTO pro.건의 VALUES('${a}','${b}','${c}','${d}');`);
+
+  db.query('select * from pro.건의 ORDER BY time DESC', function (error, results, fields) {
+    if (error) {
+        console.log(error);
+    }else{
+      
+      var gesi = ``;
+      var i = 0;
+      while(i < results.length){
+        gesi = gesi + `<tr><th scope="row">${results[i].name}</th><td>${results[i].kinds}</td><td>${results[i].comment}</td><td>${results[i].time}</td></tr>`;
+        
+        i = i + 1;
+      };  
+   
+  var title = 'fishing';
+  var list = func.list();
+  var html = func.QHTML2(list,gesi);
+  res.send(html);
+    }
+
+  });
 });
 app.listen(3000);
